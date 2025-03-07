@@ -19,6 +19,16 @@ namespace RastgeleListBoxV2
 
         private void btnSalla_Click(object sender, EventArgs e)
         {
+                        /*
+                 SABİT OLARAK 0-20 ARASINDA 20 SAYI ÜRETMESİ İÇİN BU METHOD KULLANILIR.
+                 _numbers.Clear(); 
+                int randomCount = 20; 
+                for (int i = 0; i < randomCount; i++)
+                {
+                    _numbers.Add(_rand.Next(0, 21));  
+                }
+                UpdateListBox();
+                 */
             _numbers.Clear(); 
             int randomCount = _rand.Next(1, 21); 
 
